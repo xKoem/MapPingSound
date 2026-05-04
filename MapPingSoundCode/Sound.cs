@@ -2,8 +2,9 @@
 
 public enum Sound
 {
+    Default,
     Quiet,
+    Faint,
     Silent,
-    Meow,
-    Default
+    Meow
 }
