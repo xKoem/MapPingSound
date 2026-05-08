@@ -3,9 +3,12 @@
   "name": "MapPingSound",
   "author": "Koem",
   "description": "Slay the Spire 2 mod that allows you to customize and change the sound effects played when someone pings the map.",
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "has_pck": true,
   "has_dll": true,
-  "dependencies": ["BaseLib"],
+  "dependencies": [  {
+    "id": "BaseLib",
+    "minVersion": "3.1.2"
+  }],
   "affects_gameplay": false
 }
